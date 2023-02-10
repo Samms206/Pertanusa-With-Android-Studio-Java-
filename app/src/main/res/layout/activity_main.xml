@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/gradientbackcround"
+    tools:context=".MainActivity">
+<!--    logo-->
+    <LinearLayout
+        android:layout_marginTop="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:onClick="button_login"
+                android:textColor="@color/primaryColor03"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/button_shape"
+                android:textAllCaps="false"/>
+
+            <Button
+
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape"
+                android:onClick="button_register"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="@color/primaryColor03" />
+        </LinearLayout>
+    </LinearLayout>
+<!--    button-->
+
+
+
+</RelativeLayout>
